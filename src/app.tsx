@@ -9,6 +9,7 @@ const MODE = process.env.NODE_ENV
 const NAME = process.env.name
 
 function App() {
+  const name = "asdasdasda"
   return (
     <>
       <h1>
