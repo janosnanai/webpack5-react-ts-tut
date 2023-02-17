@@ -1,8 +1,9 @@
 import ClickCounter from "./click-counter";
 
-import "./styles.css";
 import IMAGE from "./Rick-And-Morty-PNG-Images.png";
 import LOGO from "./vercel.svg";
+
+import "./styles.css";
 
 const MODE = process.env.NODE_ENV;
 const NAME = process.env.name;
