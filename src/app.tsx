@@ -1,12 +1,12 @@
-import ClickCounter from "./click-counter";
+import ClickCounter from './click-counter'
 
-import IMAGE from "./Rick-And-Morty-PNG-Images.png";
-import LOGO from "./vercel.svg";
+import IMAGE from './Rick-And-Morty-PNG-Images.png'
+import LOGO from './vercel.svg'
 
-import "./styles.css";
+import './styles.css'
 
-const MODE = process.env.NODE_ENV;
-const NAME = process.env.name;
+const MODE = process.env.NODE_ENV
+const NAME = process.env.name
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <img src={LOGO} alt="ram img" width={300} />
       <ClickCounter />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
